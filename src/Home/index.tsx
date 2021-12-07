@@ -15,7 +15,7 @@ function Home() {
     <>
       <Header />
       <View style={styles.container}>
-        <Image source={require('../assets/deliveryman.png')} />
+        <Image source={require('../assets/delivery.png')} />
         <Text style={styles.title}>
           Acompanhe os pedidos e {'\n'} entregue no prazo!
         </Text>
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   button: {
-    backgroundColor: '#DA5C5C',
+    backgroundColor: '#00C285',
     flexDirection: 'row',
     borderRadius: 10
   },

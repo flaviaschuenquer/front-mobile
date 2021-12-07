@@ -22,7 +22,7 @@ function Header() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#DA5C6C',
+    backgroundColor: '#00C285',
     height: 90,
     paddingTop: 40,
     flexDirection: 'row',
